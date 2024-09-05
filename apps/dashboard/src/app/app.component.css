@@ -1,0 +1,41 @@
+/* Basic Reset */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Container Styling */
+  .remote-menu {
+    display: flex;
+    justify-content: center; /* Center the menu horizontally */
+    background-color: #333;  /* Dark background for the menu */
+    padding: 10px 0; /* Vertical padding */
+    height: 50px;
+  }
+  
+  /* Menu Item Styling */
+  .remote-menu li {
+    margin: 0 25px; /* Space between menu items */
+  }
+  
+  /* Link Styling */
+  .remote-menu a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-size: 16px; /* Adjust font size as needed */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  /* Hover State */
+  .remote-menu a:hover {
+    color: #ffa500; /* Orange color on hover */
+  }
+  
+  /* Router Outlet Styling */
+  router-outlet {
+    display: block;
+    margin: 20px auto; /* Center the content with margin */
+    padding: 20px;
+    max-width: 1200px; /* Adjust to fit your design */
+  }
